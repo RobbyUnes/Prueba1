@@ -1,0 +1,285 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro para el fondo */
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #003366; /* Azul oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Espaciado para evitar que el contenido quede detrás del header */
+body {
+    margin-top: 100px;
+}
+
+/* Contenedor principal */
+#venta-container {
+    width: 85%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #e6f2ff; /* Azul muy claro */
+    border: 2px solid #6699cc; /* Borde azul intermedio */
+}
+
+th, td {
+    border: 1px solid #99c2ff; /* Azul más claro */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+}
+
+td {
+    color: #003366; /* Azul oscuro */
+}
+
+/* Botones */
+.add-button, input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc; /* Azul medio */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-button:hover, input[type="submit"]:hover {
+    background-color: #004a99; /* Azul más oscuro */
+}
+
+/* Inputs */
+input[type="text"], input[type="number"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #6699cc; /* Azul intermedio */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #003366; /* Azul oscuro */
+}
+
+/* Títulos y texto */
+h1 {
+    text-align: center;
+    color: #003366; /* Azul oscuro */
+    margin-bottom: 20px;
+}
+
+/* Cambios y totales */
+#cambio-container, #total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 20px;
+    color: #003366; /* Azul oscuro */
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login form */
+form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    input[type="text"], input[type="password"] {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+} body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor del formulario */
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        /* Títulos */
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Etiquetas */
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        /* Campos de entrada */
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* Botón */
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }

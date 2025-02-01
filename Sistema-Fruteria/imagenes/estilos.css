@@ -1,0 +1,78 @@
+/* Estilo global para el cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente básica */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+    background-color: #f4f4f9; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center; /* Centrar texto */
+    background-color: #fff; /* Fondo blanco */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 400px; /* Ancho fijo */
+    margin: 20px auto; /* Centrar contenedor verticalmente */
+}
+
+/* Estilo del logo */
+.logo {
+    width: 150px; /* Ancho del logo */
+    height: auto; /* Ajustar altura automáticamente */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+/* Título */
+h1 {
+    color: #333; /* Color oscuro */
+    margin-bottom: 20px; /* Espacio debajo */
+    font-size: 24px; /* Tamaño de la fuente */
+}
+
+/* Botones de navegación */
+.menu-button {
+    display: block; /* Mostrar cada botón como bloque */
+    width: 100%; /* Botones ocupan todo el ancho disponible */
+    margin: 10px 0; /* Espacio vertical */
+    padding: 15px; /* Espaciado interno */
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Eliminar bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor de mano */
+    text-decoration: none; /* Eliminar subrayado */
+    text-align: center; /* Centrar texto */
+    transition: background-color 0.3s ease; /* Animación al hacer hover */
+}
+
+/* Efecto hover para botones */
+.menu-button:hover {
+    background-color: #45a049; /* Cambiar fondo al pasar el mouse */
+}
+
+/* Tabla general (puedes ajustarla según tus otras páginas) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
